@@ -1,1 +1,1 @@
-# richardpeterson.nyc
+# Richard Peterson NYC
