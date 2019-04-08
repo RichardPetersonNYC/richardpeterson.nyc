@@ -8,7 +8,7 @@ module.exports = function (grunt) {
         },
         pages: {
           options: {
-            remote: 'git@github.com:Draxs//richardpeterson.nyc.git',
+            remote: 'git@github.com:Draxs/richardpeterson.nyc.git',
             branch: 'gh-pages'
           }
         },
