@@ -42,7 +42,7 @@ description:
             <div class="owl-carousel carousel-large">
                 {% for image in site.static_files %}
                     {% if image.path contains 'images/home-slider' %}
-                    {% assign img = image.path | remove_first:'/' %}
+                    {% assign img = image.path  %}
                     <div class="item">
                        <div class="home-slide" style="background: url('{{ img | prepend: SourceUrl }}');background-position: top center;background-size: cover;"></div>
                     </div>
