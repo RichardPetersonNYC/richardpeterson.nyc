@@ -2,6 +2,10 @@
     text-align: right;
 }
 
+.text-left {
+    text-align: left;
+}
+
 .test-bg {
     background-color: $border-color;
 }
@@ -12,4 +16,40 @@
 
 .owl-carousel {
     z-index: -1 !important;
+}
+
+.ft-300 {
+    font-weight: 300;
+}
+
+.ft-400 {
+    font-weight: 400;
+}
+
+.ft-700 {
+    font-weight: 700;
+}
+
+.ft-900 {
+    font-weight: 900;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.red {
+    color: $accent-color;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.block-element {
+    display: block;
 }

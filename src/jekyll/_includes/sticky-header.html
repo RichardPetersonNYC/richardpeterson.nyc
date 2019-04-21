@@ -1,32 +1,23 @@
 <div id="page-top"></div>
-<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-    <div class="container-fluid ">
-		<div class="row">
-			<div class="col-lg-2">
-				<div class="logo">
-                    <a class="logo-link" href="{{ '/' | prepend: SourceUrl }}" title="Richard Peterson Home"><img src="{{ '/assets/images/ricrad-peterson-wh.png' | prepend: SourceUrl }}"></a>
-				</div>   
-            </div>
-            <div class="col-lg-8">
-                <div class="topnav">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Instagram Influencer</a></li>
-                        <li><a href="#">Categories</a>
-                            <ul class="dropdown">
-                                <li><a href="#">Fashion</a></li>
-                                <li><a href="#">Travel</a></li>
-                                <li><a href="#">Richardpeterson Collection</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Work With Me</a></li>
-                    </ul>
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="logo">
+                        <a class="logo-link" href="{{ '/' | prepend: SourceUrl }}" title="Richard Peterson Home"><img src="{{ '/assets/images/ricrad-peterson-wh.png' | prepend: SourceUrl }}"></a>
+                    </div>   
+                </div>
+                <div class="col-lg-8">
+                    {% include navigation.html %}
+                </div>
+                <div class="col-lg-2">
+                    <div class="header-social">
+                        <a href="https://instagram.com/_richard_peterson?utm_source=ig_profile_share&igshid=xrvin8dmrlht" target="_blank"><img src="{{ '/assets/svg/instagram-logo.svg' | prepend: SourceUrl }}" alt="Richard Peterson on Instagram"></a>
+                        <a href="https://www.facebook.com/profile.php?id=1469670600" target="_blank"><img src="{{ '/assets/svg/facebook-letter-logo-black.svg' | prepend: SourceUrl }}" alt="Nena Kay on Facebook"></a>
+                        <a href="https://pin.it/aur5m2qjwjkttb" target="_blank"><img src="{{ '/assets/svg/pinterest.svg' | prepend: SourceUrl }}" alt="Nena Kay on Pinterest"></a>
+                        <a href="https://youtu.be/7dSyEfkuqO0" target="_blank" rel="noopener noreferrer"><img src="{{ '/assets/svg/youtube.svg' | prepend: SourceUrl }}" alt="Youtube"></a>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-2">
-                social
-            </div>
-		</div>
-	</div>
-</nav>
+        </div>
+    </nav>

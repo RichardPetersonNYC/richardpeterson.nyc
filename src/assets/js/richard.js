@@ -14,17 +14,6 @@ function collapseNavbar() {
 $(window).scroll(collapseNavbar);
 $(document).ready(collapseNavbar);
 
-$(function() {
-    var currLang = document.documentElement.lang;
-    $('#language_select select').on('change', function() {
-        var lang = $(this).val();
-        window.location.href = '/' + (lang === 'en' ? '' : lang);
-    });
-    $(".nav-button").click(function() {
-        $(".nav-button,.primary-nav").toggleClass("open");
-    });
-   
-});
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
@@ -32,7 +21,7 @@ $(function() {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
-        }, 800, 'easeInOutExpo');
+        }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
 });

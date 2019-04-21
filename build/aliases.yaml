@@ -3,8 +3,6 @@ default:
   - 'sass'
   - 'postcss'
   - 'cssmin'
-  - 'eslint'
-  - 'uglify'
   - 'copy'
   - 'image'
   - 'concurrent'

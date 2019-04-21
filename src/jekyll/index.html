@@ -7,14 +7,101 @@ description:
 ---
 {% include lang.html %}
 {% include geturl.html %}
-<div class="owl-carousel owl-theme">
-    <div class="item">
-        <img src="{{ '/images/home/home-santorini.jpg' | prepend: SourceUrl  }}">
+<div class="hero-home">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="heading-font white-color">Own Your Style</h2>    
+            </div>
+        </div>
     </div>
-    <div class="item">
-        <img src="{{ '/images/home/home-santorini-1.jpg' | prepend: SourceUrl  }}">
-    </div>
-    <div class="item">
-        <img src="{{ '/images/home/europann-w1920.jpg' | prepend: SourceUrl  }}">
+    <div class="scroll-down">
+        <a class="page-scroll" href="#section-1">
+            <p class="">Scroll down</p>
+            <div class="aquarius">
+                <img src="{{ '/assets/images/aquarius.png' | prepend: SourceUrl }}">
+            </div>
+        </a>
     </div>
 </div>
+<div class="black-home">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h4 class="uppercase text-center">Richard Peterson</h4>
+            </div>
+        </div>
+    </div>
+</div> 
+<div class="container-fluid" id="section-1">
+    <div class="row">
+        <div class="col-md-5 no-padding">
+            <div class="slider-title">
+                <img class="block-element" src="{{ '/assets/images/aquarius.png' | prepend: SourceUrl }}" width="30"> Be Bold
+            </div>
+            <div class="owl-carousel carousel-large">
+                {% for image in site.static_files %}
+                    {% if image.path contains 'images/home-slider' %}
+                    {% assign img = image.path | remove_first:'/' %}
+                    <div class="item">
+                       <div class="home-slide" style="background: url('{{ img | prepend: SourceUrl }}');background-position: top center;background-size: cover;"></div>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        <div class="col-md-7">
+            <div class="row">
+                <div class="col-md-6 home-fashion-img  order-md-first">
+                    <div class="zoom-img img-1"></div>
+                </div>
+                <div class="col-md-6 home-box-text order-first">
+                    <h3>Fashion</h3>
+                    <div class="red-vl"></div>
+                    <p>Building the confidence level while modeling made me into a style chameleon. Enter this section to see some of my favourite fashion shoots</p>
+                    <p><a href="">Read more</a></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 home-box-text">
+                    <h3>Travel</h3>
+                    <div class="red-vl"></div>
+                    <p>I owe my success to travel blogging. It was my first trip to Thailand that inspired me to start a style blog</p>
+                    <p><a href="">Read more</a></p>
+                </div>
+                    <div class="col-md-6 home-fashion-img">
+                        <div class="zoom-img img-2"></div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="white-home">
+    <div class="aquarius">
+        <img src="{{ '/assets/images/aquarius.png' | prepend: SourceUrl }}">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p class="text-center">Even before I was to start living in New York I kept coming back to this city as it offered plethora of inspiration. Ever since I first stepped foot in these streets I knew that only this place make me feel this alive, feeds my creative soul and makes me wanna better myself on the daily. New York and nothing less for me.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $('.carousel-large').owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        center: true,
+        margin: 5,
+        nav: false,
+        autoplayHoverPause: true,
+        dots: false,
+        animateOut: 'fadeOut'
+        });
+    $('.owl-carousel').find('.owl-nav').removeClass('disabled');
+    $('.owl-carousel').on('changed.owl.carousel', function(event) {
+        $(this).find('.owl-nav').removeClass('disabled');
+    });
+</script>  
