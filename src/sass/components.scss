@@ -16,7 +16,7 @@
     margin-top: 0;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('images/home-1a.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('../../images/home-1a.jpg');
     background-size: cover;
     background-position: top center;
 
@@ -150,13 +150,13 @@
 }
 
 .img-1 {
-    background: url('/images/fashion.jpg');
+    background: url('../../images/fashion.jpg');
     background-size: cover;
     background-position: top center;
 }
 
 .img-2 {
-    background: url('/images/travel.jpg');
+    background: url('../../images/travel.jpg');
     background-size: cover;
     background-position: top center;
 }
