@@ -23,6 +23,7 @@
     p {
         display: block;
         font-size: 14px;
+        font-family: $secondary-font;
         color: $white-color;
         text-align: center;
         margin-left: auto;
@@ -73,7 +74,6 @@
     p {
         font-size: 16px;
         font-weight: 400;
-        letter-spacing: 0.5px;
         font-family: $primary-font;
         line-height: 2;
     }
