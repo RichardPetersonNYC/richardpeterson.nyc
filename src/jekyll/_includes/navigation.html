@@ -2,7 +2,7 @@
 {% include lang.html %}
 <div class="topnav">
     <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="{{ '/' | prepend: SourceUrl  }}">Home</a></li>
         <li><a href="#">Categories</a>
             <ul class="dropdown">
                 <li><a href="#">Instagram Influencer</a></li>
@@ -11,7 +11,7 @@
                 <li><a href="#">Richardpeterson Collection</a></li>
             </ul>
         </li>
-        <li><a href="#">About</a></li>
+        <li><a href="{{ '/en/about-richard-peterson' | prepend: SourceUrl  }}">About</a></li>
         <li><a href="#">Work With Me</a></li>
     </ul>
 </div>

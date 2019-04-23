@@ -224,8 +224,9 @@
 .about-text {
     background-color: $primary-color-dark;
 
-    & h2 {
-        font-weight: 600;
+    & h3 {
+        text-transform: uppercase;
+        font-weight: 800;
         color: $white-color;
         padding-top: 80px;
         margin-bottom: 40px;
@@ -246,7 +247,7 @@
 }
 
 @media screen and (max-width: 992px) {
-    .about-text h2 {
+    .about-text h3 {
         padding-top: 20px;
     }
 
