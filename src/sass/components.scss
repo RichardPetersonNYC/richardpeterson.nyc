@@ -16,7 +16,7 @@
     margin-top: 0;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('../../images/home-1a.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../../images/home-1a.jpg');
     background-size: cover;
     background-position: top center;
 
@@ -251,6 +251,31 @@
         padding-top: 20px;
     }
 
+}
+
+.dark-grey-bg {
+    background-color: $primary-color-dark;
+}
+
+.section {
+    padding: 50px 15px;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    background-color: $primary-color-dark;
+
+    & h1 {
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 800;
+    }
+    & p {
+        font-size: 16px;
+        margin-top: 40px;
+    }
+}
+
+.post-gallery .row {
+    padding-bottom: 20px;
 }
 
 .insta-container {

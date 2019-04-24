@@ -1,3 +1,11 @@
+.white-bg {
+    background-color: $white-color;
+}
+
+.black-bg {
+    background-color: $black-color;
+}
+
 .text-right {
     text-align: right;
 }
@@ -12,6 +20,10 @@
 
 .test-img {
     height: 500px;
+}
+
+.ft-black {
+    color: $black-color;
 }
 
 .owl-carousel {
@@ -46,6 +58,10 @@
     color: $accent-color;
 }
 
+.red-bg {
+    background-color: $accent-color;
+}
+
 .no-padding {
     padding: 0;
 }
@@ -56,4 +72,8 @@
 
 .space {
     margin-left: 10px;
+}
+
+.divider-m {
+    height: 30px;
 }
