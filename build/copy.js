@@ -16,7 +16,7 @@ module.exports = {
     },
     images: {
         files: [
-            { expand: true, cwd: 'src/assets',  src: ['images/*'],                           dest: 'dist/assets/' },
+            { expand: true, cwd: 'src/assets',  src: ['images/*', 'videos/*'],                           dest: 'dist/assets/' },
         ],
     }
 };

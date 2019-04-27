@@ -6,6 +6,10 @@
     background-color: $black-color;
 }
 
+.dark-grey-bg {
+    background-color: $primary-color-dark;
+}
+
 .text-right {
     text-align: right;
 }
@@ -58,10 +62,6 @@
     color: $accent-color;
 }
 
-.red-bg {
-    background-color: $accent-color;
-}
-
 .no-padding {
     padding: 0;
 }
@@ -76,4 +76,8 @@
 
 .divider-m {
     height: 30px;
+}
+
+.divider-lg {
+    height: 100px;
 }
