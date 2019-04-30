@@ -33,7 +33,7 @@ description:
             <div class="slider-title">
                 Be Bold<img src="{{ '/assets/images/aquarius.png' | prepend: SourceUrl }}" width="25">
             </div>
-            <div class="owl-carousel carousel-large">
+            <a href="{{ '/en/instagram-influencer' | prepend: SourceUrl  }}"><div class="owl-carousel carousel-large">
                 {% for image in site.static_files %}
                     {% if image.path contains 'images/home-slider' %}
                     {% assign img = image.path  %}
@@ -42,27 +42,27 @@ description:
                     </div>
                     {% endif %}
                 {% endfor %}
-            </div>
+            </div></a>
         </div>
         <div class="col-md-7">
             <div class="row">
                 <div class="col-md-6 box-img  order-md-first">
-                    <a href="{{ '/en/fashion-richard-peterson/' | prepend: SourceUrl }}"><div class="zoom-img img-1"></div></a>
+                    <a href="{{ '/en/fashion-richard-peterson' | prepend: SourceUrl  }}"><div class="zoom-img img-1"></div></a>
                 </div>
                 <div class="col-md-6 home-box-text order-first">
                     <h3>Fashion</h3>
                     <p>Building the confidence level while modeling made me into a style chameleon. Enter this section to see some of my favourite fashion shoots</p>
-                    <p><a href="{{ '/en/fashion-richard-peterson/' | prepend: SourceUrl }}">Read more</a></p>
+                    <p><a href="{{ '/en/fashion-richard-peterson' | prepend: SourceUrl  }}">Read more</a></p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 home-box-text">
                     <h3>Travel</h3>
                     <p>I owe my success to travel blogging. It was my first trip to Thailand that inspired me to start a style blog</p>
-                    <p><a href="{{ '/en/travel/' | prepend: SourceUrl }}">Read more</a></p>
+                    <p><a href="{{ '/en/travel/' | prepend: SourceUrl  }}">Read more</a></p>
                 </div>
                     <div class="col-md-6 box-img">
-                        <a href="{{ '/en/travel/' | prepend: SourceUrl }}"><div class="zoom-img img-2"></div></a>
+                        <a href="{{ '/en/travel/' | prepend: SourceUrl  }}"><div class="zoom-img img-2"></div></a>
                     </div>
             </div>
         </div>
