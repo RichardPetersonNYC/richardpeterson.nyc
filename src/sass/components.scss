@@ -70,6 +70,18 @@
 .white-section {
     background-color: $white-color;
     padding: 50px;
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: $primary-font;
+        line-height: 2;
+    }
+}
+
+.white-section-category {
+    background-color: $white-color;
+    padding: 50px;
     margin-top: 70px;
 
     p {
@@ -80,10 +92,10 @@
     }
 }
 
-.black-section {
+.black-section-text {
     background-color: $black-color;
     padding: 50px;
-    margin-top: 68px;
+    margin-top: 70px;
 
     p {
         font-size: 16px;
@@ -92,6 +104,12 @@
         color: $white-color;
         line-height: 2;
     }
+}
+
+.black-section {
+    background-color: $black-color;
+    padding: 50px;
+    margin-top: 60px;
 }
 
 .aquarius {
@@ -210,6 +228,42 @@
     background-position: top center;
 }
 
+.img-3 {
+    background: url('../../images/instagram-influencer/NYC-street-style-cover-w1280.jpg');
+    background-size: cover;
+    background-position: top center;
+}
+
+.img-4 {
+    background: url('../../images/brands/brands.jpg');
+    background-size: cover;
+    background-position: top center;
+}
+
+.img-5 {
+    background: url('../../images/about.jpg');
+    background-size: cover;
+    background-position: top center;
+}
+
+.img-6 {
+    background: url('../../images/fashion/catalogs&runaway/catalogs&runaway-5.jpg');
+    background-size: cover;
+    background-position: top center;
+}
+
+.img-7 {
+    background: url('../../images/fashion/test-shooting/test-shooting-13.jpg');
+    background-size: cover;
+    background-position: top center;
+}
+
+.img-8 {
+    background: url('../../images/fashion/magazines/magazines-cover.jpg');
+    background-size: cover;
+    background-position: top center;
+}
+
 .home-box-text {
     background-color: $black-color;
     color: $white-color;
@@ -232,16 +286,13 @@
     }
 }
 
-.about-img {
+.category-img {
     display: flex;
-    min-height: 180vh;
+    min-height: 150vh;
     padding: 20px;
     margin-top: 0;
     justify-content: center;
     align-items: center;
-    background: url('../../images/about.jpg');
-    background-size: cover;
-    background-position: top center;
 }
 
 .about-text {
@@ -274,6 +325,47 @@
         padding-top: 20px;
     }
 
+}
+
+/* instagram-influencer */
+
+.instagram-influencer-box {
+    min-height: 130vh;
+    overflow: hidden;
+    background-color: $black-color;
+    padding: 0;
+}
+
+.text-overlay-black {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 230px;
+    background: rgba(0, 0, 0, 0.6);
+
+    & h2 {
+        text-transform: uppercase;
+        font-weight: 800;
+        color: $white-color;
+    }
+}
+
+.text-overlay-white {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 230px;
+    background: rgba(255, 255, 255, 0.7);
+    color: $white-color;
+
+    & h2 {
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 0;
+        color: $black-color;
+    }
 }
 
 /* travel */

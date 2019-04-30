@@ -1,7 +1,7 @@
 module.exports = {
     jekyll: {
         files: [
-            { expand: true, cwd: 'src/jekyll',  src: ['**/*', '!images/**'],                           dest: 'dist' },
+            { expand: true, cwd: 'src/jekyll',  src: ['**/**/*', '!images/**'],                           dest: 'dist' },
         ],
     },
     assets: {

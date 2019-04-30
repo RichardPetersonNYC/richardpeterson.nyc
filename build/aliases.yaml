@@ -4,6 +4,7 @@ default:
   - 'postcss'
   - 'cssmin'
   - 'copy'
+  - 'svgmin'
   - 'image'
   - 'concurrent'
 
