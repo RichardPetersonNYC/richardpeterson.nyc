@@ -106,14 +106,14 @@
     }
 }
 
-.black-section {
-    background-color: $black-color;
+.white-section-inf {
+    background-color: $white-color;
     padding: 20px;
-    margin-top: 42px;
+    margin-top: 50px;
 
     & h4 {
         font-size: 16px;
-        color: $secondary-color;
+        color: $black-color;
         font-weight: 400;
         letter-spacing: 0.5px;
     }
