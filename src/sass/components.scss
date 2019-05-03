@@ -107,9 +107,10 @@
 }
 
 .white-section-inf {
+    position: relative;
+    display: block;
     background-color: $white-color;
     padding: 20px;
-    margin-top: 50px;
 
     & h4 {
         font-size: 16px;
@@ -364,12 +365,29 @@
     }
 }
 
+/* overlay */
+
 .text-overlay-black {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     height: 230px;
+    background: rgba(0, 0, 0, 0.6);
+
+    & h3 {
+        text-transform: uppercase;
+        font-weight: 800;
+        color: $white-color;
+    }
+}
+
+.text-overlay-black-brand {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
     background: rgba(0, 0, 0, 0.6);
 
     & h3 {
