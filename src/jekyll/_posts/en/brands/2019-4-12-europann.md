@@ -8,7 +8,8 @@ excerpt: "Europann clothing is distinguished by the authenticity of fabrics, lin
 image: /images/brands/europann/europann-8-w1280.jpg
 permalink: /en/Europann/
 ---
-
+{% include lang.html %}
+{% include geturl.html %}
 <div class="dark-grey-bg">
     <div class="container">
         <div class="row">

@@ -8,7 +8,8 @@ excerpt: "The most picturesque Greek island there is. Absolutely lived up to the
 image: /images/travel/santorini/santorini-cover.jpg
 permalink: /en/Santorini/
 ---
-
+{% include lang.html %}
+{% include geturl.html %}
 <div class="dark-grey-bg">
     <div class="container">
         <div class="row">

@@ -8,7 +8,8 @@ excerpt: "Saks Fifth Avenue today is renowned for its superlative selling servic
 image: /images/brands/saks-fifth-avenue/saks-fifth-avenue-cover-w1280.jpg
 permalink: /en/Saks-Fifth-Avenue/
 ---
-
+{% include lang.html %}
+{% include geturl.html %}
 <div class="dark-grey-bg">
     <div class="container">
         <div class="row">

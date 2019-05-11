@@ -8,7 +8,8 @@ excerpt: "Born from boohoo.com boohooMAN is fashion's best kept secret in menswe
 image: /images/brands/boohooman/boohooman-cover-w1280.jpg
 permalink: /en/Boohooman/
 ---
-
+{% include lang.html %}
+{% include geturl.html %}
 <div class="dark-grey-bg">
     <div class="container">
         <div class="row">

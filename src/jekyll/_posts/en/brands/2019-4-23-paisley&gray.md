@@ -8,7 +8,8 @@ excerpt: "Born of the notion that no two men are alike, we believe that what fil
 image: /images/brands/paisley&gray/paisley&gray-cover-w1280.jpg
 permalink: /en/Paisley&Gray/
 ---
-
+{% include lang.html %}
+{% include geturl.html %}
 <div class="dark-grey-bg">
     <div class="container">
         <div class="row">

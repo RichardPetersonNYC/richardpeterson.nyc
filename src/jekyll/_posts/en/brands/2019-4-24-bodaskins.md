@@ -8,7 +8,8 @@ excerpt: "Boda Skins Leather Jackets have based their design on the classic bike
 image: /images/brands/bodaskins/bodaskins-cover-w1280.jpg
 permalink: /en/Bodaskins/
 ---
-
+{% include lang.html %}
+{% include geturl.html %}
 <div class="dark-grey-bg">
     <div class="container">
         <div class="row">

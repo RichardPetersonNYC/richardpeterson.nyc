@@ -8,7 +8,8 @@ excerpt: "Religion is devoted to the pursuit of individual style; lyrical quotes
 image: /images/brands/religion-clothing/religion-clothing-cover-w1280.jpg
 permalink: /en/Religion/
 ---
-
+{% include lang.html %}
+{% include geturl.html %}
 <div class="dark-grey-bg">
     <div class="container">
         <div class="row">

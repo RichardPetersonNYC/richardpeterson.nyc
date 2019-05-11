@@ -8,7 +8,8 @@ excerpt: ""
 image: /images/brands/watchanish/watchanish-cover-w1280.jpg
 permalink: /en/Watch-Anish/
 ---
-
+{% include lang.html %}
+{% include geturl.html %}
 <div class="dark-grey-bg">
     <div class="container">
         <div class="row">

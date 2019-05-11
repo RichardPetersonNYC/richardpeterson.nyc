@@ -8,7 +8,8 @@ excerpt: "THE MOTHER OF STREET STYLE BRANDS. One of my favorite brands ever!"
 image: /images/brands/sixthjune/sixthjune-cover-w1280.jpg
 permalink: /en/Sixthjune/
 ---
-
+{% include lang.html %}
+{% include geturl.html %}
 <div class="dark-grey-bg">
     <div class="container">
         <div class="row">

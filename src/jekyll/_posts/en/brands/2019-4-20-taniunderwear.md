@@ -8,7 +8,8 @@ excerpt: "Based in Brooklyn, NY, Tani USA describes itself as the world’s best
 image: /images/brands/tani-underwear/taniunderwear-cover-w1280.jpg
 permalink: /en/Tani-Underwear/
 ---
-
+{% include lang.html %}
+{% include geturl.html %}
 <div class="dark-grey-bg">
     <div class="container">
         <div class="row">

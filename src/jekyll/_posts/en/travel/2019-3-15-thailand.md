@@ -8,7 +8,8 @@ excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo
 image: /images/travel/thailand/thailand-cover-w1280.jpg
 permalink: /en/Thailand/
 ---
-
+{% include lang.html %}
+{% include geturl.html %}
 <div class="dark-grey-bg">
     <div class="container">
         <div class="row">

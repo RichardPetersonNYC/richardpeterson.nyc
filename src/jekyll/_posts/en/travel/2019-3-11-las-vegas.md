@@ -8,7 +8,8 @@ excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo
 image: /images/travel/las-vegas/las-vegas-cover-w1280.jpg
 permalink: /en/Las-Vegas/
 ---
-
+{% include lang.html %}
+{% include geturl.html %}
 <div class="dark-grey-bg">
     <div class="container">
         <div class="row">

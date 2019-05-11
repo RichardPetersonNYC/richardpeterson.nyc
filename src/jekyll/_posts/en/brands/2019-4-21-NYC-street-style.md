@@ -8,7 +8,8 @@ excerpt: "Even before I was about to start living in New York I kept coming back
 image: /images/brands/NYC-street-style/NYC-street-style-cover-w1280.jpg
 permalink: /en/NYC-Street-Style/
 ---
-
+{% include lang.html %}
+{% include geturl.html %}
 <div class="dark-grey-bg">
     <div class="container">
         <div class="row">

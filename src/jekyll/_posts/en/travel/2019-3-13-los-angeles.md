@@ -8,7 +8,8 @@ excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo
 image: /images/travel/los-angeles/los-angeles-cover-w1280.jpg
 permalink: /en/Los-Angeles/
 ---
-
+{% include lang.html %}
+{% include geturl.html %}
 <div class="dark-grey-bg">
     <div class="container">
         <div class="row">

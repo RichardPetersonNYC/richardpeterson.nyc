@@ -8,7 +8,8 @@ excerpt: "Ron Dorff concerns itself with beyond­ basics: perfect pieces with an
 image: /images/brands/ron-dorff/ron-dorff-cover-w1280.jpg
 permalink: /en/Ron-Dorff/
 ---
-
+{% include lang.html %}
+{% include geturl.html %}
 <div class="dark-grey-bg">
     <div class="container">
         <div class="row">
