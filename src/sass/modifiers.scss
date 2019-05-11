@@ -30,6 +30,10 @@
     color: $black-color;
 }
 
+.ft-white {
+    color: $white-color;
+}
+
 .owl-carousel {
     z-index: -1 !important;
 }
@@ -58,7 +62,7 @@
     text-transform: uppercase;
 }
 
-.red {
+.red, a.red {
     color: $accent-color;
 }
 

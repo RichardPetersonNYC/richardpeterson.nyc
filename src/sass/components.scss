@@ -338,13 +338,13 @@
 /* instagram-influencer */
 
 .instagram-influencer-box {
-    min-height: 130vh;
+    min-height: 120vh;
     overflow: hidden;
     padding: 0;
 }
 
 .instagram-influencer-box-text {
-    min-height: 130vh;
+    min-height: 120vh;
     padding: 0;
 
     & h3 {
@@ -460,7 +460,7 @@
     padding-bottom: 20px;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
     .post-gallery {
         & .container {
             width: 100%;
@@ -479,6 +479,43 @@
             padding-bottom: 20px;
         }
     }
+}
+
+/* contact */
+
+.white-section-contact {
+    background-color: $white-color;
+    min-height: 75vh;
+
+    & p {
+        margin-top: 30px;
+    }
+}
+
+.btn-dark {
+    color: $white-color;
+    background-color: $primary-color-dark;
+    border-color: $primary-color-dark;
+}
+
+.btn-dark:hover {
+    color: $black-color;
+    background-color: $white-color;
+    border-color: $primary-color-dark;
+}
+
+form {
+    margin-top: 50px;
+}
+
+.form-control {
+    width: 570px;
+    background: transparent;
+    border: none !important;
+    outline: none !important;
+    border-bottom: 1px solid $secondary-color !important;
+    color: $black-color;
+    margin-bottom: 15px;
 }
 
 /* video */
