@@ -8,7 +8,8 @@ excerpt: "At Fashion Nova, we make it easy and affordable for you to be your own
 image: /images/brands/fashionnovaman/fashionnovaman-cover-w1280.jpg
 permalink: /en/Fashionnova/
 ---
-
+{% include lang.html %}
+{% include geturl.html %}
 <div class="dark-grey-bg">
     <div class="container">
         <div class="row">
