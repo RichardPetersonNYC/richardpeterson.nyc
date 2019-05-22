@@ -5,7 +5,7 @@ preview-title: "BOOHOOMAN"
 subtitle:
 categories: brands
 excerpt: "Born from boohoo.com boohooMAN is fashion's best kept secret in menswear. Following from boohoo.com's success we wanted to bring something new to the menswear market" 
-image: /images/brands/boohooman/boohooman-cover-w1280.jpg
+image: /images/brands/boohooman/boohooman-cover-w700.jpg
 permalink: /en/Boohooman/
 ---
 {% include lang.html %}

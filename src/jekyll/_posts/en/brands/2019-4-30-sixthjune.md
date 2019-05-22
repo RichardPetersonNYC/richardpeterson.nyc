@@ -5,7 +5,7 @@ preview-title: "SIXTHJUNE"
 subtitle:
 categories: brands
 excerpt: "THE MOTHER OF STREET STYLE BRANDS. One of my favorite brands ever!" 
-image: /images/brands/sixthjune/sixthjune-cover-w1280.jpg
+image: /images/brands/sixthjune/sixthjune-cover-w700.jpg
 permalink: /en/Sixthjune/
 ---
 {% include lang.html %}

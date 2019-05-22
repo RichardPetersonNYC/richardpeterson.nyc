@@ -5,7 +5,7 @@ preview-title: "WATCH ANISH"
 subtitle:
 categories: brands
 excerpt: "" 
-image: /images/brands/watchanish/watchanish-cover-w1280.jpg
+image: /images/brands/watchanish/watchanish-cover-w700.jpg
 permalink: /en/Watch-Anish/
 ---
 {% include lang.html %}
@@ -15,7 +15,8 @@ permalink: /en/Watch-Anish/
         <div class="row">
             <div class="col section ft-white ft-300">
                 <h1 class="white-color">Watch Anish<img class="space" src="{{ '/assets/images/aquarius.png' | prepend: SourceUrl }}" width="27"></h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>  
+                <p>Luxury watches based in New York city! Jacobandco, Sevenfriday,Hublot,Bovet1822,Cartier and more..
+                Watch portrait and they have so much different shapes,detalis,mechanisms and guess this is the reason buyers find the watch they like just to look at ,not necessarily check the time.</p>  
             </div>
         </div>
     </div>

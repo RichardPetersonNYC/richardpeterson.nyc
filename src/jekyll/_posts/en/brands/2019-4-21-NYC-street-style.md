@@ -5,7 +5,7 @@ preview-title: "NYC STREET STYLE"
 subtitle:
 categories: brands
 excerpt: "Even before I was about to start living in New York I kept coming back to this city" 
-image: /images/brands/NYC-street-style/NYC-street-style-cover-w1280.jpg
+image: /images/brands/NYC-street-style/NYC-street-style-cover-w700.jpg
 permalink: /en/NYC-Street-Style/
 ---
 {% include lang.html %}

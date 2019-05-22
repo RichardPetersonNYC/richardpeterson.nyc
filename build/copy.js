@@ -9,9 +9,9 @@ module.exports = {
             { expand: true, cwd: 'src/assets',  src: ['css/*', 'js/*'],                           dest: 'dist/assets/' },
         ],
     },
-    fonts: {
+    download: {
         files: [
-            { expand: true, cwd: 'src',  src: ['fonts/**'],                           dest: 'dist' },
+            { expand: true, cwd: 'src',  src: ['download/**'],                           dest: 'dist' },
         ],
     },
     images: {

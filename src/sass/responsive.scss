@@ -1,0 +1,1075 @@
+@media screen and (max-width: 1366px) {
+    .video-container {
+        position: relative;
+        height: 750px;
+    }
+    .video-container video {
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .hero-home {
+        min-height: 600px;
+    }
+    .home-slide, .carousel-large {
+        height: 600px;
+    }
+    .slider-title {
+        position: absolute;
+    }
+    .box-img {
+        height: 300px;
+    }
+    .home-box-text {
+        height: 300px;
+        padding: 25px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .video-container {
+        position: relative;
+        height: 500px;
+    }
+    .video-container video {
+        top: 0;
+    }
+    .instagram-influencer-box {
+        height: 700px;
+    }
+    .instagram-influencer-box-text {
+        height: 700px;
+        padding-top: 140px;
+    }
+    .text-overlay-black-brand {
+        height: 125px;
+
+        h3 {
+            font-size: 18px;
+            margin-top: 30px;
+
+            .space {
+                margin-left: 3px;
+            }
+            img {
+                width: 18px;
+            }
+        }
+    }
+    .category-img {
+        height: 700px;
+    }
+    .text-overlay-black {
+        height: 175px;
+
+        h3 {
+            font-size: 20px;
+        }
+    }
+    .section {
+        h1 {
+            font-size: 26px;
+        }
+    }
+    .travel-box-img {
+        height: 280px;
+    }
+    .box-text {
+        padding: 10px;
+
+        h3 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 14px;
+        }
+        h5 {
+            font-size: 15;
+        }
+    }
+    .collection-container {
+        height: 35vh;
+
+        h2 {
+            margin-top: 100px;
+            padding-bottom: 20px;
+        }
+    }
+    .about-img {
+        height: 900px;
+    }
+    .about-text {
+        h3 {
+            padding-top: 50px;
+            margin-bottom: 30px;
+        }
+        p {
+            font-weight: 400;
+            font-size: 14px;
+            color: $white-color;
+            margin: 10px 25px;
+        }
+    }
+    .white-section-contact {
+        min-height: 400px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .hero-home {
+        min-height: 700px;
+    }
+    .home-slide, .carousel-large {
+        height: 550px;
+    }
+    .slider-title {
+        position: absolute;
+    }
+    .box-img {
+        height: 275px;
+
+        .home-box-text {
+            height: 275px;
+            padding: 30px;
+        }
+        .h3 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+    .video-container {
+        position: relative;
+        height: 500px;
+    }
+    .video-container video {
+        top: 0;
+    }
+    .category-img {
+        height: 600px;
+    }
+    .text-overlay-black {
+        height: 160px;
+
+        h3 {
+            font-size: 20px;
+        }
+    }
+    .white-section-category {
+        padding: 40px;
+
+        p {
+            font-size: 15px;
+        }
+    }
+    .travel-box-img {
+        height: 280px;
+    }
+    .box-text {
+        padding: 10px;
+
+        h3 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 14px;
+        }
+        h5 {
+            font-size: 16;
+        }
+    }
+    .about-img {
+        height: 820px;
+    }
+    .about-text {
+        h3 {
+            padding-top: 50px;
+        }
+        p {
+            font-weight: 400;
+            font-size: 13px;
+            color: $white-color;
+            margin: 10px 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 834px) {
+    .home-slide, .carousel-large {
+        height: 550px;
+    }
+    .slider-title {
+        position: absolute;
+    }
+    .box-img {
+        height: 275px;
+    }
+    .home-box-text {
+        height: 275px;
+        padding: 10px;
+
+        .h3 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 13px;
+        }
+    }
+    .video-container {
+        position: relative;
+        height: 420px;
+    }
+    .video-container video {
+        top: 0;
+    }
+    .text-overlay-black-brand {
+        height: 100px;
+
+        h3 {
+            font-size: 18px;
+
+            .space {
+                margin-left: 3px;
+            }
+            img {
+                width: 18px;
+            }
+        }
+    }
+    .section {
+        margin-top: 140px;
+
+        h1 {
+            font-size: 25px;
+        }
+    }
+    .category-img {
+        height: 550px;
+    }
+    .text-overlay-black {
+        height: 150px;
+
+        h3 {
+            font-size: 19px;
+
+            .space {
+                margin-left: 3px;
+            }
+            img {
+                width: 18px;
+            }
+        }
+    }
+    .travel-box-img {
+        height: 250px;
+    }
+    .box-text {
+        padding: 0 10px;
+
+        h3 {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 13px;
+        }
+        h5 {
+            font-size: 15px;
+            margin-top: 10px;
+        }
+    }
+    .collection-container {
+        display: flex;
+        height: 450px;
+    }
+    .about-img {
+        height: 1100px;
+    }
+    .about-text {
+        h3 {
+            padding-top: 50px;
+            margin-bottom: 40px;
+        }
+        p {
+            font-weight: 400;
+            font-size: 15px;
+            color: $white-color;
+            margin: 20px 45px;
+        }
+    }
+    .white-section-contact {
+        min-height: 500px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .header-social {
+        img {
+            height: 13px;
+        }
+    }
+    .home-slide, .carousel-large {
+        height: 500px;
+    }
+    .slider-title {
+        position: absolute;
+    }
+    .box-img {
+        height: 250px;
+    }
+    .home-box-text {
+        height: 250px;
+        padding: 10px;
+
+        .h3 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 13px;
+        }
+    }
+    .video-container {
+        position: relative;
+        height: 420px;
+    }
+    .video-container video {
+        top: 0;
+    }
+    .instagram-influencer-box {
+        height: 550px;
+    }
+    .instagram-influencer-box-text {
+        height: 550px;
+        padding-top: 50px;
+    }
+    .text-overlay-black-brand {
+        height: 100px;
+
+        h3 {
+            font-size: 18px;
+
+            .space {
+                margin-left: 3px;
+            }
+            img {
+                width: 18px;
+            }
+        }
+    }
+    .section {
+        margin-top: 145px;
+    }
+    .travel-box-img {
+        height: 250px;
+    }
+    .box-text {
+        padding: 0 10px;
+
+        h3 {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 14px;
+        }
+        h5 {
+            font-size: 15px;
+            margin-top: 10px;
+        }
+    }
+    .collection-container {
+        display: flex;
+        height: 450px;
+    }
+    .about-img {
+        height: 1100px;
+    }
+    .about-text {
+        h3 {
+            padding-top: 50px;
+            margin-bottom: 40px;
+        }
+        p {
+            font-weight: 400;
+            font-size: 15px;
+            color: $white-color;
+            margin: 20px 45px;
+        }
+    }
+    .white-section-contact {
+        min-height: 500px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home-slide, .carousel-large {
+        height: 500px;
+    }
+    .slider-title {
+        position: absolute;
+    }
+    .box-img {
+        height: 250px;
+    }
+    .home-box-text {
+        height: 250px;
+        padding: 10px;
+
+        h3 {
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
+        p {
+            font-size: 13px;
+        }
+    }
+    .instagram-influencer-box {
+        height: 500px;
+    }
+    .instagram-influencer-box-text {
+        height: 500px;
+        padding-top: 70px;
+
+        h3 {
+            margin-bottom: 50px;
+        }
+        p {
+            font-size: 15px;
+            margin-bottom: 30px;
+        }
+    }
+    .category-img {
+        height: 500px;
+    }
+    .text-overlay-black {
+        height: 140px;
+
+        h3 {
+            font-size: 18px;
+
+            .space {
+                margin-left: 3px;
+            }
+            img {
+                width: 18px;
+            }
+        }
+    }
+    .travel-box-img {
+        height: 250px;
+    }
+    .box-text {
+        padding: 0 15px;
+
+        h3 {
+            font-size: 17px;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 12px;
+        }
+        h5 {
+            font-size: 15px;
+            margin-top: 10px;
+        }
+    }
+    .post-gallery {
+        .container {
+            width: 100%;
+            padding-right: 0;
+            padding-left: 0;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .row {
+            padding-bottom: 0;
+            margin: 0;
+        }
+        .col-md-6, .col {
+            margin: 0;
+            padding: 0 15px;
+            padding-bottom: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .hero-home {
+        min-height: 500px;
+    }
+    .home-slide, .carousel-large {
+        height: 1000px;
+    }
+    .slider-title {
+        position: absolute;
+    }
+    .box-img {
+        height: 900px;
+    }
+    .home-box-text {
+        height: 700px;
+        padding: 180px;
+
+        h3 {
+            font-size: 30px;
+            padding-bottom: 30px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+    .instagram-influencer-box {
+        height: 800px;
+    }
+    .instagram-influencer-box-text {
+        height: 600px;
+        padding: 100px 80px;
+
+        h3 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+    .text-overlay-black-brand {
+        height: 320px;
+
+        h3 {
+            margin-top: 30px;
+            font-size: 30px;
+
+            .space {
+                margin-left: 10px;
+            }
+            img {
+                width: 25px;
+            }
+        }
+    }
+    .travel-box-img {
+        height: 800px;
+    }
+    .box-text {
+        height: 500px;
+        padding: 120px 80px;
+
+        h3 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 20px;
+        }
+        h5 {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+    }
+    #la {
+        order: 2;
+    }
+    #la-text {
+        order: 1;
+    }
+    #mi {
+        order: 4;
+    }
+    #mi-text {
+        order: 3;
+    }
+    #mex {
+        order: 2;
+    }
+    #lmex-text {
+        order: 1;
+    }
+    #bg {
+        order: 4;
+    }
+    #bg-text {
+        order: 3;
+    }
+    .mobile-nav {
+        display: block;
+    }
+    .desktop-nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .box-img {
+        height: 750px;
+    }
+    .home-box-text {
+        height: 750px;
+        padding: 180px;
+
+        h3 {
+            font-size: 30px;
+            padding-bottom: 30px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 649px) {
+    .home-slide, .carousel-large {
+        height: 850px;
+    }
+    .slider-title {
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .home-box-text {
+        height: 600px;
+        padding: 130px 70px;
+
+        h3 {
+            font-size: 30px;
+            padding-bottom: 30px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+    .video-container {
+        position: relative;
+        height: 350px;
+    }
+    .video-container video {
+        top: 0;
+    }
+    .category-img {
+        height: 900px;
+    }
+    .text-overlay-black {
+        height: 220px;
+
+        h3 {
+            font-size: 30px;
+
+            .space {
+                margin-left: 8px;
+            }
+            img {
+                width: 27px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .mobile-header-social {
+        visibility: hidden;
+    }
+    .box-img {
+        height: 90vh;
+    }
+    .home-box-text {
+        height: 90vh;
+        padding: 100px;
+
+        h3 {
+            font-size: 30px;
+            padding-bottom: 30px;
+            justify-content: center;
+        }
+        p {
+            font-size: 20px;
+            justify-content: center;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .box-img {
+        height: 650px;
+    }
+    .home-box-text {
+        height: 600px;
+        padding: 130px 70px;
+
+        h3 {
+            font-size: 30px;
+            padding-bottom: 30px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+    .video-container {
+        position: relative;
+        height: 300px;
+    }
+    .video-container video {
+        top: 0;
+    }
+    .text-overlay-black-brand {
+        height: 260px;
+
+        h3 {
+            font-size: 28px;
+
+            .space {
+                margin-left: 8px;
+            }
+            img {
+                width: 25px;
+            }
+        }
+    }
+    .section {
+        margin-top: 80px;
+    }
+    .category-img {
+        height: 900px;
+    }
+    .text-overlay-black {
+        height: 220px;
+
+        h3 {
+            font-size: 30px;
+
+            .space {
+                margin-left: 8px;
+            }
+            img {
+                width: 27px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 549px) {
+    .hero-home {
+        min-height: 400px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .box-img {
+        height: 650px;
+    }
+    .home-box-text {
+        height: 600px;
+        padding: 130px 70px;
+
+        h3 {
+            font-size: 30px;
+            padding-bottom: 30px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+    .video-container {
+        position: relative;
+        height: 250px;
+    }
+    .video-container video {
+        top: 0;
+    }
+    .instagram-influencer-box {
+        height: 650px;
+    }
+    .instagram-influencer-box-text {
+        height: 600px;
+        padding: 100px 80px;
+
+        h3 {
+            font-size: 27px;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
+    .text-overlay-black-brand {
+        height: 260px;
+
+        h3 {
+            font-size: 28px;
+
+            .space {
+                margin-left: 8px;
+            }
+            img {
+                width: 25px;
+            }
+        }
+    }
+    .section {
+        padding: 45px 50px;
+        margin-top: 70px;
+        margin-bottom: 40px;
+    }
+    .category-img {
+        height: 900px;
+    }
+    .text-overlay-black {
+        height: 220px;
+
+        h3 {
+            font-size: 30px;
+
+            .space {
+                margin-left: 8px;
+            }
+            img {
+                width: 27px;
+            }
+        }
+    }
+    .about-img {
+        height: 720px;
+    }
+    .about-text {
+        h3 {
+            padding-top: 40px;
+            margin-bottom: 40px;
+        }
+        p {
+            font-weight: 400;
+            font-size: 15px;
+            color: $white-color;
+            margin: 20px 45px;
+        }
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .home-slide, .carousel-large {
+        height: 95vh;
+    }
+    .slider-title {
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .box-img {
+        height: 550px;
+    }
+    .home-box-text {
+        height: 550px;
+        padding: 100px 70px;
+
+        h3 {
+            font-size: 27px;
+            padding-bottom: 30px;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
+    .video-container {
+        position: relative;
+        height: 220px;
+    }
+    .video-container video {
+        top: 0;
+    }
+    .instagram-influencer-box {
+        height: 600px;
+    }
+    .instagram-influencer-box-text {
+        height: 600px;
+        padding: 80px 60px;
+
+        h3 {
+            font-size: 27px;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
+    .text-overlay-black-brand {
+        height: 230px;
+
+        h3 {
+            font-size: 28px;
+
+            .space {
+                margin-left: 8px;
+            }
+            img {
+                width: 25px;
+            }
+        }
+    }
+    .section {
+        padding: 45px 50px;
+        margin-top: 70px;
+        margin-bottom: 40px;
+    }
+    .category-img {
+        height: 700px;
+    }
+    .text-overlay-black {
+        height: 180px;
+
+        h3 {
+            font-size: 27px;
+
+            .space {
+                margin-left: 8px;
+            }
+            img {
+                width: 25px;
+            }
+        }
+    }
+    .travel-box-img {
+        height: 450px;
+    }
+    .box-text {
+        height: 450px;
+        padding: 80px 50px;
+
+        h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 18px;
+        }
+        h5 {
+            font-size: 19px;
+            margin-top: 10px;
+        }
+    }
+    .about-img {
+        height: 720px;
+    }
+    .about-text {
+        h3 {
+            padding-top: 40px;
+            margin-bottom: 40px;
+        }
+        p {
+            font-weight: 400;
+            font-size: 15px;
+            color: $white-color;
+            margin: 20px 45px;
+        }
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .box-img {
+        height: 450px;
+    }
+    .home-box-text {
+        height: 400px;
+        padding: 40px 30px;
+
+        h3 {
+            font-size: 25px;
+            padding-bottom: 30px;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
+    .video-container {
+        position: relative;
+        height: 180px;
+    }
+    .video-container video {
+        top: 0;
+    }
+    .instagram-influencer-box {
+        height: 500px;
+    }
+    .instagram-influencer-box-text {
+        height: 500px;
+        padding: 40px 50px;
+
+        h3 {
+            font-size: 25px;
+        }
+        p {
+            font-size: 17px;
+        }
+    }
+    .text-overlay-black-brand {
+        height: 180px;
+
+        h3 {
+            font-size: 28px;
+
+            .space {
+                margin-left: 8px;
+            }
+            img {
+                width: 25px;
+            }
+        }
+    }
+    .section {
+        padding: 45px 50px;
+        margin-top: 70px;
+        margin-bottom: 40px;
+    }
+    .category-img {
+        height: 700px;
+    }
+    .text-overlay-black {
+        height: 180px;
+
+        h3 {
+            font-size: 27px;
+
+            .space {
+                margin-left: 8px;
+            }
+            img {
+                width: 25px;
+            }
+        }
+    }
+    .travel-box-img {
+        height: 450px;
+    }
+    .box-text {
+        height: 400px;
+        padding: 80px 50px;
+
+        h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 18px;
+        }
+        h5 {
+            font-size: 19px;
+            margin-top: 10px;
+        }
+    }
+    .about-img {
+        height: 720px;
+    }
+    .about-text {
+        h3 {
+            padding-top: 40px;
+            margin-bottom: 40px;
+        }
+        p {
+            font-weight: 400;
+            font-size: 15px;
+            color: $white-color;
+            margin: 20px 45px;
+        }
+    }
+}

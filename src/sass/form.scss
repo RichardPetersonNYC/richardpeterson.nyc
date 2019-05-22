@@ -3,10 +3,8 @@ input[type='email'], input[type='number'], input[type='password'], input[type='s
     background-color: transparent;
     border: 1px solid $primary-color;
     border-radius: 0;
-    font-size: 1.4rem;
     font-weight: 500;
     font-family: $primary-font;
-    text-transform: uppercase;
     box-shadow: none;
     box-sizing: inherit; // Forced to replace inherit values of the normalize.css
     height: 3.8rem;
@@ -30,6 +28,7 @@ select {
 }
 
 textarea {
+    max-width: 100%;
     min-height: 6.5rem;
 }
 
@@ -37,7 +36,6 @@ label, legend {
     display: block;
     font-size: 1.4rem;
     font-weight: 500;
-    text-transform: uppercase;
 }
 
 fieldset {

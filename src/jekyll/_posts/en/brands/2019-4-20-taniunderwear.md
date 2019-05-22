@@ -5,7 +5,7 @@ preview-title: "TANI UNDERWEAR"
 subtitle:
 categories: brands
 excerpt: "Based in Brooklyn, NY, Tani USA describes itself as the world’s best and most comfortable unisex underwear" 
-image: /images/brands/tani-underwear/taniunderwear-cover-w1280.jpg
+image: /images/brands/tani-underwear/taniunderwear-cover-w700.jpg
 permalink: /en/Tani-Underwear/
 ---
 {% include lang.html %}

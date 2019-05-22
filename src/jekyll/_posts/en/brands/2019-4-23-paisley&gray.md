@@ -5,7 +5,7 @@ preview-title: "PAISLEY&GRAY"
 subtitle:
 categories: brands
 excerpt: "Born of the notion that no two men are alike, we believe that what fills a man's closet must be greater than the sum of its parts" 
-image: /images/brands/paisley&gray/paisley&gray-cover-w1280.jpg
+image: /images/brands/paisley&gray/paisley&gray-cover-w700.jpg
 permalink: /en/Paisley&Gray/
 ---
 {% include lang.html %}

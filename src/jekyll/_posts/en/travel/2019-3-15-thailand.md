@@ -23,7 +23,7 @@ permalink: /en/Thailand/
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <img src="{{ '/images/travel/thailand/thailand-4-w1280.jpg' | prepend: SourceUrl }}" alt="thailand-4-w1280.jpg">
+                    <img src="{{ '/images/travel/thailand/thailand-1-w1280.jpg' | prepend: SourceUrl }}" alt="thailand-1-w1280.jpg">
                 </div>
             </div>
             <div class="row">
@@ -43,7 +43,9 @@ permalink: /en/Thailand/
             </div>
             <div class="row">
                 <div class="col">
-                    <img src="{{ '/images/travel/thailand/thailand-1-w1280.jpg' | prepend: SourceUrl }}" alt="thailand-1-w1280.jpg">
+                    <video autoplay loop muted playsinline width="100%" height="100%" controls>
+                        <source src="{{ '/assets/videos/Mandalay-by-Silk.mp4' | prepend: SourceUrl }}" type="video/mp4">
+                    </video>
                 </div>
             </div>
             <div class="row">

@@ -5,7 +5,7 @@ preview-title: "EUROPANN"
 subtitle:
 categories: brands
 excerpt: "Europann clothing is distinguished by the authenticity of fabrics, linen and cotton of high quality, and the search for colors and prints" 
-image: /images/brands/europann/europann-8-w1280.jpg
+image: /images/brands/europann/europann-8-w700.jpg
 permalink: /en/Europann/
 ---
 {% include lang.html %}

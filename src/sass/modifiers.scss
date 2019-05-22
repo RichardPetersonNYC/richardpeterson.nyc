@@ -10,6 +10,14 @@
     background-color: $primary-color-dark;
 }
 
+.red {
+    color: $accent-color;
+}
+
+.black {
+    color: $black-color;
+}
+
 .text-right {
     text-align: right;
 }
@@ -78,6 +86,10 @@
     margin-left: 10px;
 }
 
+.space-right {
+    margin-right: 4px;
+}
+
 .divider-s {
     height: 30px;
 }
@@ -88,4 +100,19 @@
 
 .divider-lg {
     height: 100px;
+}
+
+.top-5 {
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.mob-inline {
+    display: block;
+}
+
+@media screen and (max-width: 767px) {
+    .mob-inline {
+        display: inline;
+    }
 }

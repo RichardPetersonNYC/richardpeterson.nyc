@@ -12,6 +12,14 @@ module.exports = function (grunt) {
       files: ['src/assets/images/**/*', 'src/jekyll/images/**/**/*'],
       tasks: ['image'],
     },
+    assets: {
+      files: ['src/assets/css/*', 'src/assets/js/*'],
+      tasks: ['copy:assets'],
+    },
+    downloads: {
+      files: ['src/download/*'],
+      tasks: ['copy:download'],
+    },
     svg: {
       files: ['src/assets/svg/**/*'],
       tasks: ['svgmin'],
