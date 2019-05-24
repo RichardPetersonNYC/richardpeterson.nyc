@@ -92,12 +92,7 @@
         }
     }
     .collection-container {
-        height: 35vh;
-
-        h2 {
-            margin-top: 100px;
-            padding-bottom: 20px;
-        }
+        height: 450px;
     }
     .about-img {
         height: 900px;
@@ -196,6 +191,9 @@
             color: $white-color;
             margin: 10px 20px;
         }
+    }
+    .collection-container {
+        height: 450px;
     }
 }
 
@@ -845,6 +843,49 @@
             margin: 20px 45px;
         }
     }
+    .collection-container {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .collection-container {
+        height: 450px;
+
+        h2 {
+            font-size: 22px;
+        }
+        img {
+            width: 20px;
+            margin: 15px 0;
+        }
+        .collection-title {
+            font-size: 20px;
+        }
+        .collection-subtitle {
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .collection-container {
+        height: 450px;
+
+        h2 {
+            font-size: 22px;
+        }
+        img {
+            width: 25px;
+            margin: 12px 0;
+        }
+        .collection-title {
+            font-size: 20px;
+        }
+        .collection-subtitle {
+            font-size: 20px;
+        }
+    }
 }
 
 @media screen and (max-width: 490px) {
@@ -963,6 +1004,46 @@
             margin: 20px 45px;
         }
     }
+    .collection-container {
+        height: 450px;
+
+        h2 {
+            font-size: 22px;
+        }
+        img {
+            width: 23px;
+            margin: 15px 0;
+        }
+        .collection-title {
+            font-size: 18px;
+        }
+        .collection-subtitle {
+            font-size: 18px;
+        }
+    }
+}
+
+@media screen and (max-width: 382px) {
+    .collection-container {
+        height: 450px;
+
+        h2 {
+            font-size: 22px;
+        }
+        img {
+            width: 20px;
+            margin: 8px 0;
+        }
+        .collection-title {
+            font-size: 16px;
+        }
+        .white-vl {
+            height: 30px;
+        }
+        .collection-subtitle {
+            font-size: 16px;
+        }
+    }
 }
 
 @media screen and (max-width: 390px) {
@@ -1058,7 +1139,7 @@
         }
     }
     .about-img {
-        height: 720px;
+        height: 580px;
     }
     .about-text {
         h3 {
@@ -1069,7 +1150,59 @@
             font-weight: 400;
             font-size: 15px;
             color: $white-color;
-            margin: 20px 45px;
+            margin: 13px 25px;
+        }
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .instagram-influencer-box {
+        height: 450px;
+    }
+    .instagram-influencer-box-text {
+        height: 450px;
+        padding: 30px 40px;
+
+        h3 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+    .collection-container {
+        height: 430px;
+
+        h2 {
+            font-size: 22px;
+        }
+        img {
+            width: 16px;
+            margin: 10px 0;
+        }
+        .collection-title {
+            font-size: 14px;
+        }
+        .collection-subtitle {
+            font-size: 14px;
+        }
+    }
+    p {
+        font-size: 13px;
+    }
+    .about-img {
+        height: 550px;
+    }
+    .about-text {
+        h3 {
+            padding-top: 40px;
+            margin-bottom: 40px;
+        }
+        p {
+            font-weight: 400;
+            font-size: 14px;
+            color: $white-color;
+            margin: 12px 20px;
         }
     }
 }

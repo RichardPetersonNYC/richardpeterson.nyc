@@ -479,7 +479,7 @@ form {
 
 .collection-container {
     display: flex;
-    height: 90vh;
+    height: 520px;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -505,38 +505,6 @@ form {
         font-size: 27px;
         font-weight: 700;
         letter-spacing: 0.1rem;
-    }
-}
-
-@media screen and (max-width: 950px) {
-    .collection-container {
-        display: flex;
-        height: 80vh;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-
-        h2 {
-            font-family: $secondary-font;
-            color: $white-color;
-            text-transform: uppercase;
-            font-weight: 300;
-            padding-bottom: 20px;
-        }
-        .collection-title {
-            color: $white-color;
-            text-transform: uppercase;
-            font-size: 27px;
-            font-weight: 700;
-            letter-spacing: 0.1rem;
-        }
-        .collection-subtitle {
-            color: $accent-color;
-            text-transform: uppercase;
-            font-size: 27px;
-            font-weight: 700;
-            letter-spacing: 0.1rem;
-        }
     }
 }
 
