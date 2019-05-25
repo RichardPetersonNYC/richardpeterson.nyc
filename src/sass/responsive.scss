@@ -119,13 +119,13 @@
         min-height: 700px;
     }
     .home-slide, .carousel-large {
-        height: 550px;
+        height: 600px;
     }
     .slider-title {
         position: absolute;
     }
     .box-img {
-        height: 275px;
+        height: 300px;
 
         .home-box-text {
             height: 275px;
@@ -1060,6 +1060,12 @@
         }
         p {
             font-size: 18px;
+        }
+    }
+    .white-section {
+        p {
+            font-size: 15px;
+            padding: 0;
         }
     }
     .video-container {
