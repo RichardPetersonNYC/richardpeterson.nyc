@@ -38,13 +38,13 @@
 <meta property="og:title" content="Richard Peterson - {{ seotitle }}" />
 <meta property="og:type" content="website" />
 <meta property="og:description" content="{{ seodescription | truncatewords: 30 }}" />
-<meta property="og:url" content="{{ page.url | replace:'index.html' | prepend: site.url }}" />
-<meta property="og:image" content="{{ seoimage | prepend: site.url }}" />
+<meta property="og:url" content="{{ page.url | replace:'index.html' | SourceUrl }}" />
+<meta property="og:image" content="{{ seoimage | prepend: SourceUrl }}" />
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@RichardPeterson">
 <meta name="twitter:title" content="Richard Peterson - {{ seotitle }}">
 <meta name="twitter:description" content="{{ seodescription }}">
-<meta name="twitter:image" content="{{ seoimage | prepend: site.url }}">
+<meta name="twitter:image" content="{{ seoimage | prepend: SourceUrl }}">
 <meta name="twitter:image:alt" content="{{ seotitle }}">
 <script type="application/ld+json">
     {
