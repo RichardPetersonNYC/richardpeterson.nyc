@@ -4,7 +4,7 @@ title:  "THAILAND"
 preview-title: "THAILAND"
 subtitle:
 categories: travel
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua" 
+excerpt: "After posting my first travel blog post from a gorgeous island of Phuket and seeing all the buzz it created within 24 hours" 
 image: /images/travel/thailand/thailand-cover-w1280.jpg
 permalink: /en/Thailand/
 ---
@@ -15,7 +15,7 @@ permalink: /en/Thailand/
         <div class="row">
             <div class="col section ft-white ft-300">
                 <h1 class="white-color">Thailand<img class="space" src="{{ '/assets/images/aquarius.png' | prepend: SourceUrl }}" width="27"></h1>
-                <p class="white-color ft-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="white-color ft-300">After posting my first travel blog post from a gorgeous island of Phuket and seeing all the buzz it created within 24 hours I knew we are on a road to something fabulous. It is impossible not to get inspired being surrounded with so much of natural beauty in Thailand as it offers so much tranquility and radiant serenity. My blogging career skyrocketed with the content made on my travels around the country. I got the chance to enjoy perfect beaches of Koh Samui, Kop Pha-ngan, Ko Chang. In addition to being a travel recommendation I truly believe Thailand is a place where you can easily retire and live your golden age with such peace.</p>
             </div>
         </div>
     </div>

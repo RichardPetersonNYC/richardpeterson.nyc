@@ -4,7 +4,7 @@ title:  "LAS VEGAS"
 preview-title: "LAS VEGAS"
 subtitle:
 categories: travel
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua" 
+excerpt: "Lifestyle of this oasis in the desert can partially be explained with the extremely high temperatures throughout the day" 
 image: /images/travel/las-vegas/las-vegas-cover-w1280.jpg
 permalink: /en/Las-Vegas/
 ---
@@ -15,7 +15,7 @@ permalink: /en/Las-Vegas/
         <div class="row">
             <div class="col section ft-white ft-300">
                 <h1 class="white-color">Las Vegas<img class="space" src="{{ '/assets/images/aquarius.png' | prepend: SourceUrl }}" width="27"></h1>
-                <p class="white-color ft-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="white-color ft-300">Lifestyle of this oasis in the desert can partially be explained with the extremely high temperatures throughout the day. The weather does not allow for much of activities in day time, other than pool parties in shades of luxury hotel rooftops. It is the evening when the Strip comes to life and all those light fixtures start making sense. Forever considered a place to which you only show up to party with a rule that anything goes and everything stays behind you. There is something so liberating knowing that almost everybody around you is in the similar mindset. I bet, no pun intended, that after your visit to Vegas you will have some great stories to tell.</p>
             </div>
         </div>
     </div>

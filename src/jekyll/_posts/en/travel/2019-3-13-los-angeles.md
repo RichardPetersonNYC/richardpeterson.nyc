@@ -4,7 +4,7 @@ title:  "LOS ANGELES"
 preview-title: "LOS ANGELES"
 subtitle:
 categories: travel
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua" 
+excerpt: "Upon spending first few hours in LA It struck me how, when compared to NYC, everything is paced in a more gentle" 
 image: /images/travel/los-angeles/los-angeles-cover-w1280.jpg
 permalink: /en/Los-Angeles/
 ---
@@ -15,7 +15,7 @@ permalink: /en/Los-Angeles/
         <div class="row">
             <div class="col section ft-white ft-300">
                 <h1 class="white-color">Los-Angeles<img class="space" src="{{ '/assets/images/aquarius.png' | prepend: SourceUrl }}" width="27"></h1>
-                <p class="white-color ft-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="white-color ft-300">Upon spending first few hours in LA It struck me how, when compared to NYC, everything is paced in a more gentle humane manner. I guess the ocean and overall great weather does magic in stress relief. The good vibes are contagious here. I still can not get over the fact that you have to cover massive distances on the daily considering how scattered everything around the city is. To those of you not driving it will become clear rather quick that you may want to reconsider your choices because without a car you are quite literally trapped. When traveling I always scout for a perfect sunset spots. If you are given a chance do not miss out on spending late afternoon at Santa Monica pier. Simply unbeatable. I will take the risk of sounding super cheesy but the best way of getting around the city is in a mustang convertible with Lana Del Ray playing on full blast. There I said it. Make sure you let me know of your travels and if you happen to head over to LA I would love to hear about your experiences.</p>
             </div>
         </div>
     </div>

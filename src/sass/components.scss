@@ -136,7 +136,7 @@
 }
 
 .home-slide {
-    height: 130vh;
+    height: 800px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -184,7 +184,7 @@
 }
 
 .box-img {
-    height: 65vh;
+    height: 400px;
     overflow: hidden;
     background-color: $black-color;
     padding: 0;
@@ -581,5 +581,20 @@ form {
     display: block;
     margin-top: 0;
     font-size: 17px;
+}
+
+/* share */
+
+.share {
+    text-align: right;
+    text-transform: uppercase;
+
+    a {
+        padding: 0 3px;
+    }
+    img {
+        width: 14px;
+        height: 14px;
+    }
 }
 /* stylelint-enable color-no-hex */

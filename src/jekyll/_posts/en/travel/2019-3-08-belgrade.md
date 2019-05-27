@@ -4,7 +4,7 @@ title:  "BELGRADE"
 preview-title: "BELGRADE"
 subtitle:
 categories: travel
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua" 
+excerpt: "I am going to go out on a limb and say that Belgrade resembles NYC in so many ways. Clearly being bias as so many great memories" 
 image: /images/travel/belgrade/belgrade-cover-w1280.jpg
 permalink: /en/Belgrade/
 ---
@@ -15,7 +15,8 @@ permalink: /en/Belgrade/
         <div class="row">
             <div class="col section ft-white ft-300">
                 <h1 class="white-color">Belgrade<img class="space" src="{{ '/assets/images/aquarius.png' | prepend: SourceUrl }}" width="27"></h1>
-                <p class="white-color ft-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="white-color ft-300">I am going to go out on a limb and say that Belgrade resembles NYC in so many ways.<br>
+                Clearly being bias as so many great memories and life changing experiences for me happened right there. I got signed to my first modeling agency while living in Belgrade, got an opportunity to play volleyball on a professional level and overall life started changing for better once I moved to the capital from my hometown. There is something peculiar about its nightlife, the overall cosmopolitan vibe about people and general approach to life, partying, and living in the moment. Considering all of the above and the fact that most of my family and friends still call Belgrade home I will always be coming back with excitement and vigor.</p>
             </div>
         </div>
     </div>
