@@ -1,38 +1,7 @@
-{% if page.layout == "page" %}
-{% if siteLang == "en" %}
-    {% assign engPosts = site.posts | where: "language", "en" %}
-        {% for post in engPosts limit:1 %}
-        {% assign seotitle = post.title %}
-        {% assign seoimage = post.image %}
-        {% assign seodescription = post.excerpt %}
-        {% endfor %}
-{% elsif siteLang == "sr" %}
-    {% assign srPosts = site.posts | where: "language", "sr" %}
-        {% for post in srPosts limit:1 %}
-        {% assign seotitle = post.title %}
-        {% assign seoimage = post.image %}
-        {% assign seodescription = post.excerpt %}
-        {% endfor %}
-{% elsif siteLang == "ru" %}
-    {% assign ruPosts = site.posts | where: "language", "ru" %}
-        {% for post in ruPosts limit:1 %}
-        {% assign seotitle = post.title %}
-        {% assign seoimage = post.image %}
-        {% assign seodescription = post.excerpt %}
-        {% endfor %}
-{% else %}
-    {% assign myPosts = site.posts | where: "language", "en" %}
-    {% for post in myPosts limit:1 %}
-        {% assign seotitle = post.title %}
-        {% assign seoimage = post.image %}
-        {% assign seodescription = post.excerpt %}
-    {% endfor %}
-{% endif %}
-{% else %}
-    {% assign seotitle = page.title %}
-    {% assign seoimage = page.image %}
-    {% assign seodescription = page.excerpt %}
-{% endif %}
+{% assign seotitle = page.title %}
+{% assign seoimage = page.image %}
+{% assign seodescription = page.excerpt %}
+
 <title>Richard Peterson - {{ seotitle | truncatewords: 30 }}</title>
 <meta name="description" content="{{ seodescription | truncatewords: 30 }}">
 <meta property="og:title" content="Richard Peterson - {{ seotitle }}" />
