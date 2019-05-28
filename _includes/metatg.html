@@ -1,0 +1,46 @@
+{% assign seotitle = page.title %}
+{% assign seoimage = page.image %}
+{% assign seodescription = page.excerpt %}
+
+<title>Richard Peterson - {{ seotitle | truncatewords: 30 }}</title>
+<meta name="description" content="{{ seodescription | truncatewords: 30 }}">
+<meta property="og:title" content="Richard Peterson - {{ seotitle }}" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="{{ seodescription | truncatewords: 30 }}" />
+<meta property="og:url" content="{{ page.url | replace:'index.html' | SourceUrl }}" />
+<meta property="og:image" content="{{ seoimage | prepend: SourceUrl }}" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@RichardPeterson">
+<meta name="twitter:title" content="Richard Peterson - {{ seotitle }}">
+<meta name="twitter:description" content="{{ seodescription }}">
+<meta name="twitter:image" content="{{ seoimage | prepend: SourceUrl }}">
+<meta name="twitter:image:alt" content="{{ seotitle }}">
+<script type="application/ld+json">
+    {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | replace:'index.html' | prepend: SourceUrl }}"
+    },
+    "headline": "Richard Peterson - {{ seotitle }}",
+    "image": [
+        "{{ page.image | prepend: SourceUrl  }}"
+    ],
+    "datePublished": "{{ site.time | date_to_xmlschema }}",
+    "dateModified": "{{ site.time | date_to_xmlschema }}",
+    "author": {
+    "@type": "Organization",
+    "name": "Richard Peterson"
+    },
+    "publisher": {
+    "@type": "Organization",
+    "name": "Richard Peterson",
+    "logo": {
+    "@type": "ImageObject",
+    "url": "https://richardpeterson.nyc/images/logo-icon.png"
+    }
+},
+    "description": "{{ seodescription }}"
+}
+</script>
