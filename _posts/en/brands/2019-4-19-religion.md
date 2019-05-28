@@ -5,7 +5,7 @@ preview-title: "RELIGION"
 subtitle:
 categories: brands
 excerpt: "Religion is devoted to the pursuit of individual style; lyrical quotes, musical muses and British heritage have always been heavy influences behind each collection" 
-image: /images/brands/religion-clothing/religion-clothing-cover-w700.jpg
+image: /images/brands/religion-clothing/religion-clothing-1-w700.jpg
 permalink: /en/Religion/
 ---
 {% include lang.html %}
