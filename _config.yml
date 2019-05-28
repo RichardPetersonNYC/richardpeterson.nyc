@@ -1,0 +1,13 @@
+title: Richard Peterson
+email: 
+description: > 
+  
+baseurl: "" 
+url: "" 
+twitter_username: 
+github_username:  
+future: true
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
