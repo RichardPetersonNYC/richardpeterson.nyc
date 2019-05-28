@@ -6,7 +6,7 @@ module.exports = {
     },
     files: {
         files: [
-            { expand: true, cwd: 'src',  src: ['CNAME'],                           dest: 'dist' },
+            { expand: true, cwd: 'src',  src: ['CNAME', '.gitignore'],                           dest: 'dist' },
         ],
     },
     assets: {
