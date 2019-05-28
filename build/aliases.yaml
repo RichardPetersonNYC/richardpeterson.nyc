@@ -1,0 +1,42 @@
+default:
+  - 'stylelint'
+  - 'sass'
+  - 'postcss'
+  - 'cssmin'
+  - 'copy'
+  - 'svgmin'
+  - 'image'
+  - 'concurrent'
+
+dev:
+  - 'stylelint'
+  - 'sass'
+  - 'postcss'
+  - 'cssmin'
+  - 'eslint'
+  - 'uglify'
+  - 'copy'
+  - 'image'
+  - 'concurrent'
+
+test:
+  - 'stylelint'
+  - 'sass'
+  - 'postcss'
+  - 'cssmin'
+  - 'copy'
+  - 'image'
+  - 'concurrent'
+
+style:
+  - 'stylelint'
+  - 'sass'
+  - 'postcss'
+  - 'cssmin' 
+
+start:
+  - 'shell:open'
+  - 'concurrent'
+
+deploy:
+  - 'buildcontrol' 
