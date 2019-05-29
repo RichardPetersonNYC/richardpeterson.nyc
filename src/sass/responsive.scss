@@ -1242,6 +1242,15 @@
         padding: 45px 50px;
         margin-top: 70px;
         margin-bottom: 40px;
+
+        h1 {
+            font-size: 20px;
+
+            img {
+                height: 19px;
+                width: 21px;
+            }
+        }
     }
     .category-img {
         height: 700px;
@@ -1330,6 +1339,20 @@
     }
     p {
         font-size: 13px;
+    }
+    .section {
+        padding: 45px 50px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+
+        h1 {
+            font-size: 19px;
+
+            img {
+                height: 17px;
+                width: 17px;
+            }
+        }
     }
     .about-img {
         height: 550px;
