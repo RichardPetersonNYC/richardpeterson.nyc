@@ -1,0 +1,38 @@
+I"D	
+<div class="dark-grey-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col section ft-white ft-300">
+                <h1 class="white-color">Shein<img class="space" src="/assets/images/aquarius.png" width="27" /></h1>
+                <p><a class="red ft-400" href="https://instagram.com/shein_men?utm_source=ig_profile_share&amp;igshid=12uq6fmrzfawk/" target="_blank">SHEIN</a> is an international B2C fast fashion e-commerce platform. The company mainly focuses on women's wear, but it also offers men's apparel, children's clothes, accessories, shoes, bags and other fashion items. SHEIN mainly targets Europe, America, Australia, and the Middle East along with other consumer markets. The brand was founded in October 2008, and since then it has upheld the philosophy that "everyone can enjoy the beauty of fashion." <br />
+                SHEIN is able to stay on top of the latest fashion trends from around the globe while rapidly bringing these styles to market. So whether you're searching for moder pieces and graphic tees or patterned blouses and swimwear, SHEIN is the ultimate one-stop-shop for the modern yet economical fashionista. It aims to promptly offer stylish quality products at appealing prices to every user in the world.</p>  
+            </div>
+        </div>
+    </div>
+    <div class="post-gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="/images/brands/shein/shein-8-w1280.jpg" alt="shein-8-w1280.jpg" />
+                </div>
+                <div class="col-md-6">
+                    <img src="/images/brands/shein/shein-9-w1280.jpg" alt="shein-9-w1280.jpg" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="/images/brands/shein/shein-3-w1280.jpg" alt="shein-3-w1280.jpg" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="/images/brands/shein/shein-1-w1280.jpg" alt="shein-1-w1280.jpg" />
+                </div>
+                <div class="col-md-6">
+                    <img src="/images/brands/shein/shein-cover-w1280.jpg" alt="shein-cover-w1280.jpg" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+:ET
