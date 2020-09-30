@@ -1,3 +1,15 @@
+@media screen and (max-width: 1920px) {
+    .home-slide, .carousel-large {
+        height: 800px;
+    }
+    .slider-title {
+        position: absolute;
+    }
+    .box-img {
+        height: 400px;
+    }
+}
+
 @media screen and (max-width: 1440px) {
     .home-slide, .carousel-large {
         height: 800px;
