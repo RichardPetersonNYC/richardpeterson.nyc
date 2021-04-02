@@ -1,0 +1,37 @@
+I"ë
+<div class="dark-grey-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col section ft-white ft-300">
+                <h1 class="white-color">Berlin<img class="space" src="/assets/images/aquarius.png" width="27" /></h1>
+                <p class="white-color ft-300">For so long Berlin lived reputation of the most liberal point of Europe. More than any other city it attracts rough artistic forward thinking creme of the oldest continent. Fashion is considered a primary vessel of self-expression and there is no holding back. Street style is rather in your face, loud and unapologetic. Not necessarily my cup of tea but I need to give credit where the credit is due. I admire the liberties and authenticity. It comes at no surprise that the biggest names in the blogging industry came from Berlin. It is worth saying that you need to be open minded and let the city take care of rest.</p>
+            </div>
+        </div>
+    </div>
+    <div class="post-gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="/images/travel/berlin/berlin-1-w1280.jpg" alt="berlin-1-w1280.jpg" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="/images/travel/berlin/berlin-2-w1280.jpg" alt="berlin-2-w1280.jpg" />
+                </div>
+                <div class="col-md-6">
+                    <img src="/images/travel/berlin/berlin-11-w1280.jpg" alt="berlin-11-w1280.jpg" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="/images/travel/berlin/berlin-5-w1280.jpg" alt="berlin-5-w1280.jpg" />
+                </div>
+                <div class="col-md-6">
+                    <img src="/images/travel/berlin/berlin-cover-w1280.jpg" alt="berlin-cover-w1280.jpg" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+:ET
